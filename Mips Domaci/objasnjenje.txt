@@ -1,0 +1,19 @@
+Objašnjenje domaćeg zadatka:
+
+Veljko Vesic
+
+broj_samoglasnika = 4
+broj_suglasnika = 4
+
+broj_slova_u_imenu = 5
+broj_slova_u_prezimenu = 5
+
+Za navedenu šemu odabran je PORT B zbog većeg broja suglasnika u imenu i prezimenu, a takođe i PIN4 jer je 10 mod 6 jednako 4.
+U prvih 5 taktova (što odgovara broju slova u imenu), širina impulsa predstavlja broj slova u imenu u milisekundama, što u ovom slučaju iznosi 5 ms. Širina pauze odnosi se na broj slova u prezimenu, što iznosi 5 ms.
+U drugih 5 taktova (broj slova u prezimenu), širina impulsa će biti 5 ms, dok će širina pauze iznositi 5 ms.
+
+
+
+
+
+
